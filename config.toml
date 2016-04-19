@@ -1,0 +1,48 @@
+baseurl = "http://semperos.com/"
+languageCode = "en-us"
+title = "Daniel Gregoire"
+theme = "hugo-prologue-theme"
+
+googleAnalytics = "UA-28316527-1"
+
+[params]
+
+subtitle = "@semperos"
+
+[[params.social]]
+title = "Github"
+fontAwesomeClass = "fa-github"
+link = "https://github.com/semperos"
+
+[[params.social]]
+title = "Twitter"
+fontAwesomeClass = "fa-twitter"
+link = "https://twitter.com/semperos"
+
+[[params.social]]
+title = "LinkedIn"
+fontAwesomeClass = "fa-linkedin"
+link = "https://www.linkedin.com/in/danielgregoire"
+
+[[params.social]]
+title = "Keybase"
+fontAwesomeClass = "fa-key"
+link = "https://keybase.io/semperos"
+
+[[params.social]]
+title = "Email"
+fontAwesomeClass = "fa-envelope"
+link = "mailto:daniel.l.gregoire@gmail.com"
+
+[params.formspree]
+
+enabled = true
+
+email = "daniel.l.gregoire@gmail.com"
+namePlaceholder = "Your name"
+emailPlaceholder = "Your email address"
+messagePlaceholder = "Your message"
+buttonText = "Send message"
+
+[params.footer]
+copyright = "Daniel Gregoire"

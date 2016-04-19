@@ -1,0 +1,29 @@
+#about-image {
+  float: right;
+  size: relative;
+  width: 45%;
+  margin-left: 2em;
+}
+
+#portfolio-image {
+  float: left;
+  size: relative;
+  width: 45%;
+  margin-right: 2em;
+}
+
+.lang-ru {
+  font-family: sans-serif;
+}
+
+#main > section > .container > p {
+  text-align: left;
+}
+
+.not-found #main {
+  margin-left: 0;
+}
+
+.not-found #main section.one {
+  height: 1000px;
+}

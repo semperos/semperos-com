@@ -1,0 +1,15 @@
+/* TEAM */
+
+   Designer: AJ (https://twitter.com/n33co)
+   Implementer: Daniel Gregoire (https://twitter.com/semperos)
+   Site: http://semperos.com
+   From: U.S.A.
+
+/* SITE */
+
+   Change Log: https://github.com/semperos/semperos-com/commits/master
+   Language: English
+   Doctype: HTML5
+   Standards: HTML5 / CSS3 / HUMANS.TXT
+   Frontend Framework: [Skel](https://github.com/n33/skel)
+   Static Site Generator: [Hugo](http://gohugo.io/)

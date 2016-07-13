@@ -46,15 +46,19 @@
 }
 
 #main > section.post ul,
-#main > section.post ol {
+.post-list ul,
+#main > section.post ol,
+.post-list ol {
   margin-left: 2em;
 }
 
-#main > section.post ul {
+#main > section.post ul,
+.post-list ul {
   list-style: disc;
 }
 
-#main > section.post ol {
+#main > section.post ol,
+.post-list ol {
   list-style: decimal;
 }
 
@@ -65,4 +69,12 @@
   padding: 0 3px;
   display: inline-block;
   font-family: Consolas, "Liberation Mono", "Lucida Console", "Droid Sans Mono", Courier, monospace;
+}
+
+#main > section.post .back-link {
+  float: right;
+}
+
+#main > section.post .back-link a {
+  border: none;
 }

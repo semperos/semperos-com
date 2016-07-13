@@ -7,11 +7,17 @@
             <header>
                 <h2 id="title">{{ .Title }}</h1>
             </header>
-            <ul id="list">
-                {{ range .Data.Pages }}
-                <li><a href="{{ .Permalink }}">{{ .Title }} ({{ .Date.Format "Jan 2, 2006" }})</li>
+
+                {{ range .Data.Pages.GroupByDate "2006" }}
+
+                <h3>{{ .Key }}</h3>
+                <ul id="list">
+                    {{ range .Pages }}
+                    <li><a href="{{ .Permalink }}">{{ .Title }} ({{ .Date.Format "Jan 2, 2006" }})</li>
                     {{ end }}
-            </ul>
+                </ul>
+
+                {{ end }}
         </div>
     </div>
 </section>

@@ -62,13 +62,32 @@
   list-style: decimal;
 }
 
-#main > section.post code {
+#main > section.post p code,
+#main > section.post ul code,
+#main > section.post ol code {
   border-radius: 3px;
   border: 1px solid #ccc;
   background-color: #f9f9f9;
   padding: 0 3px;
   display: inline-block;
+  font-size: 0.9em;
   font-family: Consolas, "Liberation Mono", "Lucida Console", "Droid Sans Mono", Courier, monospace;
+}
+
+#main > section.post pre {
+  border: 1px solid #cacaca;
+  font-size: 0.85em;
+  font-family: Consolas, "Liberation Mono", "Lucida Console", "Droid Sans Mono", Courier, monospace;
+  padding: 10px;
+  overflow: auto;
+  border-radius: 3px;
+  background-color: #fafafb;
+  color: #393939;
+  margin: 2em 0;
+}
+
+#main > section.post pre code {
+  white-space: pre;
 }
 
 #main > section.post .back-link {

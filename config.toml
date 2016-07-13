@@ -2,6 +2,7 @@ baseurl = "http://semperos.com/"
 languageCode = "en-us"
 title = "Daniel Gregoire"
 theme = "hugo-prologue-theme"
+MetaDataFormat = "toml"
 
 googleAnalytics = "UA-28316527-1"
 

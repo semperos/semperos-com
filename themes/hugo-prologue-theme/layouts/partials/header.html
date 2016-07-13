@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+{{ `<!--
+	 Prologue by HTML5 UP
+	 html5up.net | @n33co
+	 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+       -->` | safeHTML }}
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        <meta charset="utf-8" />
+	<title>{{ .Site.Title }}</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	{{ `<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->` | safeHTML }}
+        <link rel="icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon" />
+        <link rel="author" href="/humans.txt" />
+	<link rel="stylesheet" href="/css/main.css" />
+        <link rel="stylesheet" href="/css/custom.css" />
+	{{ `<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->` | safeHTML }}
+	{{ `<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->` | safeHTML }}
+    </head>
